@@ -1,0 +1,249 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Projekty Visual\\ToDoListPaczkowski\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6747CA5D-9F7C-4933-9E9A-85129D8C747B}|ToDoListPaczkowski.csproj|e:\\projekty visual\\todolistpaczkowski\\todolistpaczkowski.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6747CA5D-9F7C-4933-9E9A-85129D8C747B}|ToDoListPaczkowski.csproj|solutionrelative:todolistpaczkowski.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6747CA5D-9F7C-4933-9E9A-85129D8C747B}|ToDoListPaczkowski.csproj|e:\\projekty visual\\todolistpaczkowski\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6747CA5D-9F7C-4933-9E9A-85129D8C747B}|ToDoListPaczkowski.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6747CA5D-9F7C-4933-9E9A-85129D8C747B}|ToDoListPaczkowski.csproj|e:\\projekty visual\\todolistpaczkowski\\pages\\addtaskform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6747CA5D-9F7C-4933-9E9A-85129D8C747B}|ToDoListPaczkowski.csproj|solutionrelative:pages\\addtaskform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6747CA5D-9F7C-4933-9E9A-85129D8C747B}|ToDoListPaczkowski.csproj|e:\\projekty visual\\todolistpaczkowski\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6747CA5D-9F7C-4933-9E9A-85129D8C747B}|ToDoListPaczkowski.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6747CA5D-9F7C-4933-9E9A-85129D8C747B}|ToDoListPaczkowski.csproj|e:\\projekty visual\\todolistpaczkowski\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6747CA5D-9F7C-4933-9E9A-85129D8C747B}|ToDoListPaczkowski.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6747CA5D-9F7C-4933-9E9A-85129D8C747B}|ToDoListPaczkowski.csproj|e:\\projekty visual\\todolistpaczkowski\\pages\\taskedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6747CA5D-9F7C-4933-9E9A-85129D8C747B}|ToDoListPaczkowski.csproj|solutionrelative:pages\\taskedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6747CA5D-9F7C-4933-9E9A-85129D8C747B}|ToDoListPaczkowski.csproj|e:\\projekty visual\\todolistpaczkowski\\pages\\taskedit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6747CA5D-9F7C-4933-9E9A-85129D8C747B}|ToDoListPaczkowski.csproj|solutionrelative:pages\\taskedit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6747CA5D-9F7C-4933-9E9A-85129D8C747B}|ToDoListPaczkowski.csproj|e:\\projekty visual\\todolistpaczkowski\\pages\\addtaskform.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6747CA5D-9F7C-4933-9E9A-85129D8C747B}|ToDoListPaczkowski.csproj|solutionrelative:pages\\addtaskform.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6747CA5D-9F7C-4933-9E9A-85129D8C747B}|ToDoListPaczkowski.csproj|e:\\projekty visual\\todolistpaczkowski\\model\\tasktodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6747CA5D-9F7C-4933-9E9A-85129D8C747B}|ToDoListPaczkowski.csproj|solutionrelative:model\\tasktodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6747CA5D-9F7C-4933-9E9A-85129D8C747B}|ToDoListPaczkowski.csproj|e:\\projekty visual\\todolistpaczkowski\\data\\todolistdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6747CA5D-9F7C-4933-9E9A-85129D8C747B}|ToDoListPaczkowski.csproj|solutionrelative:data\\todolistdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6747CA5D-9F7C-4933-9E9A-85129D8C747B}|ToDoListPaczkowski.csproj|e:\\projekty visual\\todolistpaczkowski\\pages\\shared\\_notificationpartial.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6747CA5D-9F7C-4933-9E9A-85129D8C747B}|ToDoListPaczkowski.csproj|solutionrelative:pages\\shared\\_notificationpartial.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6747CA5D-9F7C-4933-9E9A-85129D8C747B}|ToDoListPaczkowski.csproj|e:\\projekty visual\\todolistpaczkowski\\pages\\shared\\_notificationpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6747CA5D-9F7C-4933-9E9A-85129D8C747B}|ToDoListPaczkowski.csproj|solutionrelative:pages\\shared\\_notificationpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6747CA5D-9F7C-4933-9E9A-85129D8C747B}|ToDoListPaczkowski.csproj|e:\\projekty visual\\todolistpaczkowski\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6747CA5D-9F7C-4933-9E9A-85129D8C747B}|ToDoListPaczkowski.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6747CA5D-9F7C-4933-9E9A-85129D8C747B}|ToDoListPaczkowski.csproj|e:\\projekty visual\\todolistpaczkowski\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6747CA5D-9F7C-4933-9E9A-85129D8C747B}|ToDoListPaczkowski.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ToDoListDbContext.cs",
+              "DocumentMoniker": "E:\\Projekty Visual\\ToDoListPaczkowski\\Data\\ToDoListDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ToDoListDbContext.cs",
+              "ToolTip": "E:\\Projekty Visual\\ToDoListPaczkowski\\Data\\ToDoListDbContext.cs",
+              "RelativeToolTip": "Data\\ToDoListDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T23:40:11.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddTaskForm.cshtml",
+              "DocumentMoniker": "E:\\Projekty Visual\\ToDoListPaczkowski\\Pages\\AddTaskForm.cshtml",
+              "RelativeDocumentMoniker": "Pages\\AddTaskForm.cshtml",
+              "ToolTip": "E:\\Projekty Visual\\ToDoListPaczkowski\\Pages\\AddTaskForm.cshtml",
+              "RelativeToolTip": "Pages\\AddTaskForm.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T23:52:42.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "E:\\Projekty Visual\\ToDoListPaczkowski\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
+              "ToolTip": "E:\\Projekty Visual\\ToDoListPaczkowski\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAswE0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T23:43:20.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_NotificationPartial.cshtml.cs",
+              "DocumentMoniker": "E:\\Projekty Visual\\ToDoListPaczkowski\\Pages\\Shared\\_NotificationPartial.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_NotificationPartial.cshtml.cs",
+              "ToolTip": "E:\\Projekty Visual\\ToDoListPaczkowski\\Pages\\Shared\\_NotificationPartial.cshtml.cs",
+              "RelativeToolTip": "Pages\\Shared\\_NotificationPartial.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T14:23:06.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Projekty Visual\\ToDoListPaczkowski\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "E:\\Projekty Visual\\ToDoListPaczkowski\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAgwJoAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T23:43:07.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TaskToDo.cs",
+              "DocumentMoniker": "E:\\Projekty Visual\\ToDoListPaczkowski\\Model\\TaskToDo.cs",
+              "RelativeDocumentMoniker": "Model\\TaskToDo.cs",
+              "ToolTip": "E:\\Projekty Visual\\ToDoListPaczkowski\\Model\\TaskToDo.cs",
+              "RelativeToolTip": "Model\\TaskToDo.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAcwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T23:41:05.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\Projekty Visual\\ToDoListPaczkowski\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\Projekty Visual\\ToDoListPaczkowski\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwCcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T12:59:27.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ToDoListPaczkowski.csproj",
+              "DocumentMoniker": "E:\\Projekty Visual\\ToDoListPaczkowski\\ToDoListPaczkowski.csproj",
+              "RelativeDocumentMoniker": "ToDoListPaczkowski.csproj",
+              "ToolTip": "E:\\Projekty Visual\\ToDoListPaczkowski\\ToDoListPaczkowski.csproj",
+              "RelativeToolTip": "ToDoListPaczkowski.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-05T23:35:41.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TaskEdit.cshtml.cs",
+              "DocumentMoniker": "E:\\Projekty Visual\\ToDoListPaczkowski\\Pages\\TaskEdit.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\TaskEdit.cshtml.cs",
+              "ToolTip": "E:\\Projekty Visual\\ToDoListPaczkowski\\Pages\\TaskEdit.cshtml.cs",
+              "RelativeToolTip": "Pages\\TaskEdit.cshtml.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAIwCwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T11:26:09.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TaskEdit.cshtml",
+              "DocumentMoniker": "E:\\Projekty Visual\\ToDoListPaczkowski\\Pages\\TaskEdit.cshtml",
+              "RelativeDocumentMoniker": "Pages\\TaskEdit.cshtml",
+              "ToolTip": "E:\\Projekty Visual\\ToDoListPaczkowski\\Pages\\TaskEdit.cshtml",
+              "RelativeToolTip": "Pages\\TaskEdit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T00:03:21.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddTaskForm.cshtml.cs",
+              "DocumentMoniker": "E:\\Projekty Visual\\ToDoListPaczkowski\\Pages\\AddTaskForm.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\AddTaskForm.cshtml.cs",
+              "ToolTip": "E:\\Projekty Visual\\ToDoListPaczkowski\\Pages\\AddTaskForm.cshtml.cs",
+              "RelativeToolTip": "Pages\\AddTaskForm.cshtml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wCYAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T10:23:21.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_NotificationPartial.cshtml",
+              "DocumentMoniker": "E:\\Projekty Visual\\ToDoListPaczkowski\\Pages\\Shared\\_NotificationPartial.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_NotificationPartial.cshtml",
+              "ToolTip": "E:\\Projekty Visual\\ToDoListPaczkowski\\Pages\\Shared\\_NotificationPartial.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_NotificationPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T14:22:48.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Projekty Visual\\ToDoListPaczkowski\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\Projekty Visual\\ToDoListPaczkowski\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T23:39:40.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Projekty Visual\\ToDoListPaczkowski\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\Projekty Visual\\ToDoListPaczkowski\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-05T23:39:32.904Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

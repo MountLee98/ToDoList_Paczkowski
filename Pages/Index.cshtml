@@ -1,0 +1,181 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<style>
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        right: 0;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+</style>
+
+@section Notification {
+
+    <li class="nav-item">
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="margin:5px;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
+                    <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2M8 1.918l-.797.161A4 4 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4 4 0 0 0-3.203-3.92zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5 5 0 0 1 13 6c0 .88.32 4.2 1.22 6" />
+                </svg>
+                Zadania na następny dzień
+            </button>
+            <ul class="dropdown-menu">
+                @foreach (var task in Model.nextDayTasks)
+                {
+                    <li><a class="dropdown-item">@task.Name</a></li>
+                }
+            </ul>
+        </div>
+
+    </li>
+
+    <li class="nav-item">
+
+        <div class="dropdown">
+
+            <button class="btn btn-secondary dropdown-toggle bg-info" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="margin:5px;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
+                    <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2M8 1.918l-.797.161A4 4 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4 4 0 0 0-3.203-3.92zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5 5 0 0 1 13 6c0 .88.32 4.2 1.22 6" />
+                </svg>
+                Liczba zadań na ten tydzień
+            </button>
+
+            <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                        Pilny
+                        <span class="badge bg-danger rounded-pill">@Model.urgentCount</span>
+                    </li>
+                    <li class="dropdown-item">
+                        Ważny
+                        <span class="badge bg-danger rounded-pill">@Model.highCount</span>
+                    </li>
+                    <li class="dropdown-item">
+                        Średni
+                        <span class="badge bg-danger rounded-pill">@Model.mediumCount</span>
+                    </li>
+                    <li class="dropdown-item">
+                        Niski
+                        <span class="badge bg-danger rounded-pill">@Model.lowCount</span>
+                    </li>
+            </ul>
+
+        </div>
+
+    </li>
+}
+
+<div class="card" style="width: 50%; margin: auto;">
+    <h5 class="card-header"></h5>
+        <div class="card-body">
+            <form method="get">
+                <h5 class="card-title">Wybierz datę, dla której chcesz wyświetlić zadania: </h5>
+            <div class="input-group" style="margin:10px;">
+                    <span class="input-group-text">
+                        <i class="bi-calendar-fill"></i>
+                    </span>
+                    <input type="date"
+                           class="form-control"
+                           id="dateInput"
+                           onchange='this.form.submit()'
+                           asp-for="tasksDate" />
+                </div>
+            </form>
+            <a class="btn btn-primary d-inline" role="button" asp-area="" asp-page="/AddTaskForm">Dodaj zadanie</a>
+        </div>
+</div>
+@if (Model.tasks.Count == 0)
+{
+    <h1 class="text-center">Brak zadań w podanym dniu</h1>
+} else
+{
+    <table class="table table-bordered" style="margin:5px;">
+        <thead>
+            <tr>
+                <th>
+                    Nazwa
+                </th>
+                <th>
+                    Priorytet
+                </th>
+                <th>
+                    Opis
+                </th>
+                <th>
+                </th>
+                <th>
+                </th>
+                <th>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var task in Model.tasks)
+            {
+                <tr>
+                    <td>
+                        @task.Name
+                    </td>
+                    <td>
+                        @task.Priority
+                    </td>
+                    <td>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="@("#Button" + task.Id)">
+                            Wyświetl opis zadania
+                        </button>
+
+                        <div class="modal fade" id="@("Button" + task.Id)" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">@task.Name</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        @task.Description
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zamknij</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </td>
+                    <td>
+                        <form method="post">
+                            <input type="hidden" value="@task.Id" name="id" />
+                            <button type="submit" class="btn btn-success">
+                                Wykonano zadanie
+                            </button>
+                        </form>
+                    </td>
+                    <td>
+                        <a href="@Url.Page("/TaskEdit", new { id = task.Id})" target="_blank" class="btn btn-warning" role="button">
+                            Edytuj
+                        </a>
+                    </td>
+                    <form asp-page-handler="delete" method="post">
+                    <td>
+                        <input type="number" value="@task.Id" hidden asp-for="id" />
+                        <button class="btn btn-danger">
+                            Usuń
+                        </button>
+                    </td>
+                    </form>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<script type="text/javascript">
+    document.getElementById('dateInput').min = new Date().toISOString().split("T")[0];
+</script>

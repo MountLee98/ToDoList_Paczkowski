@@ -1,0 +1,54 @@
+﻿@page
+@model ToDoListPaczkowski.Pages.AddTaskFormModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<form method="post">
+    <div class="form-group" style="width: 40%">
+        <label>Nazwa zadania</label>
+        <br />
+        <input asp-for="name" class="form-control" placeholder="Wprowadź nazwę">
+    </div>
+    <div class="form-group" style="width: 40%">
+        <label>Wybierz priorytet</label>
+        <br />
+        <select id="star-select"
+                class="form-select"
+                aria-describedby="star-label"
+                asp-for="priority">
+            @foreach (var priority in Model.priorityList)
+            {
+                <option value="@priority">@priority</option>
+            }
+        </select>
+    </div>
+    <div id="return-date" class="mb-2" style="width: 40%">
+        <label id="return-date-label"
+               for="return-date-input"
+               class="form-label">Data wykonania zadania</label>
+        <div class="input-group">
+            <span class="input-group-text">
+                <i class="bi-calendar-fill"></i>
+            </span>
+            <input type="date"
+                   class="form-control"
+                   id="dateInput"
+                   asp-for="taskDate" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Informacje o zadaniu</label>
+        <br />
+        <textarea rows="4" 
+                  cols="50"
+                  asp-for="description">
+        </textarea>
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Stwórz zadanie</button>
+</form>
+
+<script type="text/javascript">
+    document.getElementById('dateInput').min = new Date().toISOString().split("T")[0];
+</script>
