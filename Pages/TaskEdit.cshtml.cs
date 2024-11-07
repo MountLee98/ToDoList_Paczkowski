@@ -41,7 +41,15 @@ namespace ToDoListPaczkowski.Pages
 
         public async Task<IActionResult> OnPostAsync()
         {
-            //TaskToDo updatedTask= new TaskToDo(name, description, taskDate, priority);
+            if (!ModelState.IsValid)
+            {
+                selectedTaskEdit = await _context.taskToDo.Where(i => i.Id == id2).FirstAsync();
+                description = selectedTaskEdit.Description;
+                priorityList = Enum.GetValues(typeof(Priority)).Cast<Priority>().ToList();
+                return Page();
+            }
+
+            TaskToDo updatedTask= new TaskToDo(name, description, taskDate, priority);
             selectedTaskEdit = await _context.taskToDo.Where(i => i.Id == id2).FirstAsync();
             
             if (selectedTaskEdit != null)

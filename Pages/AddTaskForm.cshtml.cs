@@ -26,7 +26,7 @@ namespace ToDoListPaczkowski.Pages
         [BindProperty]
         public Priority priority { get; set; }
         [BindProperty]
-        public DateOnly? taskDate {  get; set; }
+        public DateOnly taskDate {  get; set; }
 
         public async Task<IActionResult> OnGetAsync()
         {
@@ -36,6 +36,12 @@ namespace ToDoListPaczkowski.Pages
 
         public async Task<IActionResult> OnPostAsync()
         {
+            if(!ModelState.IsValid)
+            {
+                priorityList = Enum.GetValues(typeof(Priority)).Cast<Priority>().ToList();
+                return Page();
+            }
+            
             TaskToDo taskToDo = new TaskToDo(name, description, taskDate, priority);
             _context.taskToDo.Add(taskToDo);
             await _context.SaveChangesAsync();

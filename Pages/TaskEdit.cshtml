@@ -11,6 +11,7 @@
         <label>Nazwa zadania</label>
         <br />
         <input asp-for="name" value="@Model.selectedTaskEdit.Name" class="form-control" placeholder="Wprowadź nazwę">
+        <span asp-validation-for="name" class="text-danger"></span>
     </div>
 
     <div class="form-group" style="width: 40%">
@@ -31,10 +32,8 @@
         </select>
     </div>
 
-    <div id="return-date" class="mb-2" style="width: 40%">
-        <label id="return-date-label"
-               for="return-date-input"
-               class="form-label">Data wykonania zadania</label>
+    <div class="mb-2" style="width: 40%">
+        <label class="form-label">Data wykonania zadania</label>
         <div class="input-group">
             <span class="input-group-text">
                 <i class="bi-calendar-fill"></i>
@@ -46,6 +45,7 @@
                    value="@Model.selectedTaskEdit.Deadline.ToString("yyyy-MM-dd")" />
         </div>
     </div>
+    <span asp-validation-for="taskDate" class="text-danger"></span>
 
     <div class="form-group">
         <label>Informacje o zadaniu</label>
@@ -55,9 +55,17 @@
                   id="textAreaDesc"
                   asp-for="description">
         </textarea>
+        <br />
+        <span asp-validation-for="description" class="text-danger"></span>
     </div>
 
     <br />
 
     <button type="submit" class="btn btn-primary">Edytuj zadanie</button>
 </form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
